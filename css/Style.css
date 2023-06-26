@@ -17,6 +17,7 @@ body{
     text-align: center;
     margin: 40px;
     font-size: 30px;
+    
 }
 .nav-li{
     display: inline;
@@ -29,8 +30,8 @@ body{
 .logo{
     float: left; 
     font-family: font; 
-    font-size: 40px;
-    
+    font-size: 60px;
+    margin: -18px;
 }
 @font-face /*perintah untuk memanggil font eksternal*/
         {
@@ -56,10 +57,49 @@ body{
     }
 }
 
-
 .btn-section1{
     border: 1px solid red;
+    background-color: rgb(246, 244, 224);
     border-radius: 20px;
-    padding: 8px;
+    padding: 15px;
     color: red;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.section1{
+    border-right: 2px solid;
+    width: 50%;
+    float: left;
+}
+.font-section1{
+    font-size: 70px;
+    font-family: "Font";
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.img-section1 {
+    width: 90px;
+}
+.description-section1 {
+    color: rgb(159, 159, 159);
+    padding-left: 90px;
+    padding-right: 80px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+.btn-section2{
+    border: 1px solid red;
+    background-color: rgb(246, 244, 224);
+    border-radius: 20px;
+    padding: 15px;
+    color: red;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.img-icon-star{
+    width: 25px;
+    
 }
