@@ -295,9 +295,24 @@ div.benefits{
 }
 .contactUs {
     background-color: rgb(226, 67, 67);
-    height: 400px;
+    height: 250px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.contactUs .contactUs-1{
+    float: left;
+    font-family: font;
+    margin: 50px;
+    color: white;
     font-size: 40px;
 }
-.contactUs div{
+.contactUs .contactUs-2{
     float: left;
+    font-family: font;
+    margin: 100px;
+
+}
+.contactUs-2 input{
+    width: 80%;
 }
