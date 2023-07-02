@@ -104,7 +104,7 @@ body{
     border-radius: 20px;
     padding: 15px;
     color: red;
-    margin-left: 90px;
+    margin-left: 20px;
     margin-top: 50px;
     font-size: 20px;
     width: 200px;
@@ -113,11 +113,11 @@ body{
     width: 25px;
     
 }
-.img-section2 div{
-    width: 90%;
-    height: 90%px;
+.img-section2 {
+    width: 600px;
+    height: 430px;
     padding-left: 90px;
-    padding-top: 30px;
+    
 
 }
 .img-burger2 {
@@ -137,17 +137,28 @@ body{
     padding-left: 90px;
     
 }
+
 .input-search{
     border: none;
     border-bottom: 2px solid;
     padding: 12px 40px 12px 40px;
     float: right;
     background-color: rgb(246, 244, 224);
-    background-image: url('images/burger.png');
+    background-image: url('../images/search.png');
     background-position: 10px 10px; 
+    background-size: 20px;
     background-repeat: no-repeat;
     margin-right: 30px;
+    
 }
+
+.input-search:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    
+}
+
 .recipes-ul{
     float: left;
     padding-top: 30px;
@@ -238,8 +249,7 @@ div.desc-menu{
 div.benefits{
     background-color: rgb(241, 102, 21);
     width: 100%;
-    float: left;
-    height: 500px; 
+     height: 400px; 
 }
 .table-benefits{
     /* margin: 120px; */
@@ -262,11 +272,32 @@ div.benefits{
     color: white;
 }
 .table-benefits2{
-    margin-left: 150px;
+    margin-left: 280px;
 
 }
 .table-benefits2 th{
-    width: 400px;
-    color: white;
+    width: 0px;
+    color: rgb(0, 0, 0);
     font-size: 20px;
+    padding-left: 20px;
+}
+.social-platform {
+    display: flex;
+    justify-content: center;
+    font-family: font;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.social-platform > div {
+   
+    margin: 7px;
+}
+.contactUs {
+    background-color: rgb(226, 67, 67);
+    height: 400px;
+    font-size: 40px;
+}
+.contactUs div{
+    float: left;
 }
